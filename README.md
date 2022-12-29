@@ -13,7 +13,8 @@ Mac:
 - virtualenv ~/.ve/vercel
 - source ~/.ve/vercel/bin/activate
 Windows:
-
+- virtualenv ~/.ve/vercel
+- ~\.ve\vercel\bin\activate
 
 Most important commands to run the project:
 - - pip install -r requirements.txt
@@ -40,7 +41,7 @@ Vercel CLI 23.0.1
 ? Set up and deploy “~/workspace/workon/flask-vercel”? [Y/n] y
 ? Which scope do you want to deploy to? your-vercel-account
 ? Link to existing project? [y/N] n
-? What’s your project’s name? flask-vercel
+? What’s your project’s name? flask-vercel-1
 ? In which directory is your code located? ./
 ...
 ```
