@@ -9,8 +9,11 @@ This repo is to test the deploy to Vercel
 ## Test local
 
 ```
+Mac:
 - virtualenv ~/.ve/vercel
 - source ~/.ve/vercel/bin/activate
+Windows:
+
 
 Most important commands to run the project:
 - - pip install -r requirements.txt
@@ -24,7 +27,9 @@ Most important commands to run the project:
 
 - Create an account at https://vercel.com/
 - Install the Vercel CLI: `npm i -g vercel`
-- git add . && git commit -m "Changes" && git push origin master
+- Mac:
+  - git add . && git commit -m "Changes" && git push origin master
+  - git add . ; git commit -m "Changes" ; git push origin master
 - Then, inside your repo folder, run `vercel`.
 
 ```
