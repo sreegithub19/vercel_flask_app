@@ -35,6 +35,19 @@ def index():
     '''
     return (html)
 
+@app.route('/seaborn')
+def seaborn():
+    sns.distplot([0, 1, 2, 3, 4, 5])
+    plt.show()
+    sns.distplot([0, 1, 2, 3, 4, 5], hist=False)
+    plt.show()
+    x = random.normal(size=(2, 3))
+    return f'''
+    <script>
+    console.log(`{x,type(x)}`)
+    </script>
+    '''
+
 @app.route("/chess")
 def chess():
     html = r'''
