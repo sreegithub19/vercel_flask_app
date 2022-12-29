@@ -28,8 +28,13 @@ Most important commands to run the project:
 
 - Create an account at https://vercel.com/
 - Install the Vercel CLI: `npm i -g vercel`
+(Note): 
+In case of this error: "Another git process seems to be running in this repository", run the below command:
+ - rm -f .git/index.lock
+ 
 - Mac:
   - git add . && git commit -m "Changes" && git push origin master
+- Windows: 
   - git add . ; git commit -m "Changes" ; git push origin master
 - Then, inside your repo folder, run `vercel`.
 
