@@ -22,6 +22,7 @@ def index():
         <li><a href='/hangman'>Hangman</a></li>
         <li><a href='/puzzles'>Estonian puzzles</a></li>
         <li><a href='/sudoku'>Sudoku</a></li>
+        <li><a href='/numpy'>Numpy</a></li>
         <li><a href='/virtual_keyboard'>Virtual keyboard</a></li>
 	<li><a href='/solitaire'>Solitaire</a></li>
 	<li><a href='/chess'>Chess</a></li>
