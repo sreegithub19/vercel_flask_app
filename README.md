@@ -21,6 +21,7 @@ Most important commands to run the project:
 - - FLASK_APP=index.py flask run
 
 
+
 # 🚀 go to http://localhost:5000
 ```
 
